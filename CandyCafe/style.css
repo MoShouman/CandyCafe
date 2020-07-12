@@ -1,0 +1,399 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.div-right{
+    float:right;
+    margin-top: 8px;
+}
+.div-right-2{
+    float:right;
+}
+/*                                   Header                              */
+header{
+    padding: .5%;
+}
+header h1{
+    margin: 0%;
+    display: inline;
+    font-family: "YellowWiff";
+    font-size: 25px;
+    line-height: 1.625em;
+}
+@font-face {
+    font-family: "YellowWiff";
+    src: url("fonts/Yellowtail-Regular.ttf");
+  }
+header img {
+    width: 56px;
+    height: 56px;
+    vertical-align: middle;
+}
+header p{
+    display: inline;
+    font-size: 18px;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "OFL";
+    src: url("fonts/Stalemate-Regular.ttf");
+  }
+header i{
+    color: black;
+}
+header button{
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    color: black;
+    outline: none;
+    border: 1.1px solid black;
+}
+header button:hover{
+    background-color: chocolate;
+    color: white;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+/*                                   Header                              */
+
+/*                                   welcome                             */
+#welcome{
+    background: url("imgs/welcome-background.jpg") no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+#welcome #overlay{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 71px; /*Msh 3aref leh bad2 men awel l page*/
+    opacity: .5;
+    z-index: 2;
+}
+.container-1{
+    padding: 10% 20% 0% 20%;
+    position: absolute;
+    z-index: 3;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+.container-1 h1{
+    font-size: 60px;
+    max-width: 700px;
+    line-height: 1.2em;
+}
+.container-1 h6{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.container-1 a{
+    background-color:white;
+    color: black;
+    text-decoration: none;
+    line-height: 36px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 25px;
+    border: 2px solid;
+    border-color:transparent;
+    display: inline-block;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.container-1 a:hover{
+    color: white;
+    background-color:transparent;
+    border-color: white;
+    outline: none;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+.cart{
+    position: absolute;
+    min-height: 10rem;
+    top: 71px;
+    right: 1px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    background: rgba(255, 255, 255, 0.5);
+    width: 0;
+    display: none;
+    overflow: hidden;
+    z-index: 4;
+}
+.cart-item{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    margin: 8px 0px;
+}
+.cart-item img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    float: left;
+}
+.cart-item p{
+    font-size: 19px;
+    display: inline;
+    color: white;
+}
+.cart-item span{
+    color: rgb(75, 253, 236);
+    font-size: 21px;    
+}
+.cart-item i{
+    float: right;
+    font-size: 24px;
+    color: #ff161685;
+}
+.cart-item i:hover{
+    cursor: pointer;
+}
+.cart .total{
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+.cart .total p{
+    margin: 0%;
+    font-family: "YellowWiff";
+    font-size: 25px;
+    line-height: 1.625em;
+}
+.cart .total button{
+    width: 45%;
+    height: 30px;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.cart .total button:hover{
+    border-color: white;
+    background-color: black;
+    color: white;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+/*                                   welcome                             */
+
+/*                                 Home                                  */
+.container-2{
+    min-height: 500px;
+    width: 100%;   
+    display: flex;
+    flex-wrap: nowrap; 
+    align-items: center;
+}
+.container-2 .home-left{
+    width: 48%;
+    height: 100%;
+    padding: 2%;
+}
+
+.container-2 .home-left h1{
+    margin: 0%;
+    color: chocolate;
+    display: inline;
+    font-family: "YellowWiff";
+    font-size: 40px;
+    line-height: 1.625em;
+}
+.container-2 .home-left p{
+    max-width: 700px;
+
+}
+.container-2 .home-right{
+    width: 50%;
+    height: 100%;
+}
+.container-2 .home-right img{
+    height: 100%;
+    width: 100%;
+}
+.container-2 a{
+    background-color:chocolate;
+    color: white;
+    text-decoration: none;
+    line-height: 36px;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 25px;
+    border: 2px solid;
+    border-color:transparent;
+    display: inline-block;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.container-2 a:hover{
+    color: black;
+    background-color:transparent;
+    border-color: black;
+    outline: none;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+
+/*                                 Home                             */
+
+
+/*                               services                           */
+#serve{
+    /* background-image: url('imgs/offer-backround.jpg'); */
+    background-color: rgb(235, 235, 235);
+    background-size: cover;
+}
+.container-3{
+    margin: 0% 7% ;
+    padding: 2%;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+.container-3 h1{
+    font-family: "YellowWiff";
+}
+#grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 650px;
+    margin: 30px 15px 0px 15px;
+    text-align: left;
+    justify-content: center;
+}
+#drink{
+    border:none;
+    background-color: white;
+    margin: 0px 15px 15px 15px;
+    width: 26%;
+    height: 220px;
+}
+.info{
+    height: 20%;
+    padding:5px 15px ;
+}
+.serve .container-3 h1{
+}
+
+#drink img{
+    display: block;
+    height: 80%;
+    width: 100%;
+}
+#drink h3{
+    display: inline;
+    margin-right: 5px;
+}
+#drink span{
+    color: black;
+}
+#drink button{
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    color: black;
+    outline: none;
+}
+#drink button:hover{
+    cursor: pointer;
+    color: chocolate;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+/*                             services                           */
+
+/*                             footer                             */
+footer{
+    height: 100px;
+    width: 98%;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+footer ul{
+    display: inline;
+    list-style: none;   
+}
+footer li{
+    float: left;
+    margin-right: 30px;
+}
+footer h3{
+    display: inline;
+    color: chocolate;
+}
+footer i{
+    color: chocolate;
+    font-size: 20px;
+}
+/*                             footer                                 */
+
+/*                           media query                              */
+
+@media screen and (max-width:768px){
+
+#welcome .container-1{
+    height: 300px;
+}    
+#welcome #overlay{
+    height: 300px;
+    top:61px;
+}
+.container-2 {
+    display: block;
+}
+.container-2 .home-left{
+    width: 100%;
+    overflow: hidden;
+    max-height: 304px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+.container-2 .home-right{
+    width: 100%;
+}
+.container-3 #grid #drink{
+ width: 100%;
+}
+.container-3 #grid {
+    margin-left: 0px;
+    }
+ .div-right-2 {
+    clear: both;
+    float: left !important;
+    display: block;
+    margin-top: 5px;
+}
+footer{
+    padding: 0px 0px 0px 10px;
+}
+}
+@media screen and (min-width:576px) and (max-width:991px){
+    .container-3 #grid #drink{
+        width: 40%;
+   }
+   
+}
+
+/*                           media query                              */
